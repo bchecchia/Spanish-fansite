@@ -1,0 +1,214 @@
+
+*{text-decoration: none;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    /*height: 100%;
+    width: 100%;*/
+    background:#2e2c38;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Apple Chancery', cursive;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+a:link {
+    text-decoration: none;
+    color:inherit;
+}
+
+#innertitlediv {
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#solitudeBook {
+    width: 350px;
+    height: 400px;
+}
+#inmortalBook {
+    width: 350px;
+    height: 400px;
+}
+#Marquez {
+    position: absolute;
+    right: 15%;
+    top: 200px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Alvarez{
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Allende {
+    position: absolute;
+    top: 800px;
+    right: 15%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Borges {
+    position: absolute;
+    top: 800px;
+    left: 15%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Fuentes {
+    position: absolute;
+    right: 15%;
+    top: 1400px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Llosa {
+    position: absolute;
+    top: 1400px;
+    left: 15%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+#Zafon {
+    position: absolute;
+    right: 15%;
+    top: 2000px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+
+#Cela {
+    position: absolute;
+    top: 2000px;
+    left: 15%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+/*********************************/
+
+
+.mainTitle{
+    top:0px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: table;
+    text-align: center;
+}
+.mainBody{
+    height: 2750px;
+    width: 100%;
+    background: #F8ECC2;
+    background-size: 100% 1200px;
+    font-size: 20px;
+}
+.authorbody, .aboutbody {
+   background: #F8ECC2;
+   height: 1650px;
+   width: 100%;
+   text-align: center;
+}
+#moreinfo {
+    padding: 20px;
+    font-size: 18px;
+}
+#kazuo {
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#video {
+    padding: 10px;
+}
+#titlediv {
+    vertical-align: middle;
+    display: table-cell;
+}
+#tabs {
+   float:left;
+   background-color: #2e2c38;
+   color: white;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+ul.tab {
+    clear:left;
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #ccc;*/
+    background-color: transparent;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #F8ECC2;
+    color: black;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: lighter(60%);
+}
+.copy-section {
+    font-family: 'Nunito', sans-serif;
+    padding: 2em 0;
+    background: #2e2c38;
+    text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
