@@ -73,14 +73,14 @@ img {
 #Fuentes {
     position: absolute;
     right: 15%;
-    top: 1500px;
+    top: 1600px;
     width: 500px;
     height: 300px;
     text-align: center;
 }
 #Llosa {
     position: absolute;
-    top: 1500px;
+    top: 1600px;
     left: 15%;
     width: 500px;
     height: 300px;
@@ -89,7 +89,7 @@ img {
 #Zafon {
     position: absolute;
     right: 15%;
-    top: 2100px;
+    top: 2200px;
     width: 500px;
     height: 300px;
     text-align: center;
@@ -98,7 +98,7 @@ img {
 
 #Cela {
     position: absolute;
-    top: 2100px;
+    top: 2200px;
     left: 15%;
     width: 500px;
     height: 300px;
